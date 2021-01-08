@@ -1,0 +1,51 @@
+**** To initialize npm ****
+
+npm init
+
+
+**** To install packages using npm ****
+
+npm install package-name
+npm i package-name
+example : npm install express
+example : npm i express
+
+***** To check the version of any package ****
+
+npm view package-name version
+npm view express version
+
+**** To uninstall packages using npm ****
+
+npm uninstall package-name
+example : npm uninstall express
+
+
+**** to install dependencies ****
+
+npm install  **its also used when we accidentally delete our node_modules folder to install it again 
+npm i
+
+**** To install specific version of any package ****
+
+npm install package-name@version
+example : npm install slugify@1.1.2
+
+version system x.y.z (major.minor.patch)
+where x is major, y is minor and z is patch
+
+tag before version ^,>,~
+^ : Exact version mention
+> : greater than or latest version of package released
+~ : install with minor new patch and function 
+
+
+**** To install packages just for development ****
+
+npm install package-name --save-dev
+example : npm install nodemon --save-dev
+
+**** To use the package globally ****
+
+npm install package-name --global
+npm install nodemon --global
