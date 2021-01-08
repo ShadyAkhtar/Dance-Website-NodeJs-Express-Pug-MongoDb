@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title Shadab Akhtar | Dance Academy
+        block scripts
+        block style
+
+        link(rel='stylesheet', href='../static/style.css', type='text/css' )
+
+    body
+        nav#navbar
+            ul
+                div#logoSection
+                    img#logo(src="static/logo.png")
+                    | DA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+        block content
+        
+        footer#footer
+            //- | This is footer
+            p 2021 &copy; All Rights Reserved | Shadab Akhtar

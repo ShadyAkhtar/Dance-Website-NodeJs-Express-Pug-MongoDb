@@ -1,0 +1,16 @@
+extends base.pug
+
+block style
+    link(rel="stylesheet", href="../static/contactstyle.css")
+
+block content
+    //- | This is Contact Page
+    h1#contactHead Contact Us
+    form(action="/contact", method="post", class="myForm")
+        input(type="text", class="myInput", name="name", placeholder="Enter your name..")
+        input(type="phone", class="myInput", name="phone", placeholder="Enter your Phone No.")
+        input(type="email", class="myInput", name="email", placeholder="Enter your email")
+        input(type="text", class="myInput", name="address", placeholder="Enter your address")
+        input(type="text", class="myInput", name="desc", placeholder="Enter your concern")
+        button(class="btn")
+            | Submit

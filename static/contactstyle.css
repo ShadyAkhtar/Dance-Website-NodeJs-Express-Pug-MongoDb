@@ -1,0 +1,32 @@
+#contactHead{
+    text-align: center;
+    margin: 1rem;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    padding: .8rem;
+    margin: 1rem;
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: .6rem;
+    width: 10rem;
+    border-radius: 1.2rem;
+    background: #db000094;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(168, 8, 8);
+}

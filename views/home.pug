@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+    include ../static/script.js
+
+block content
+
+    section#introSection
+        //- | Intro Section
+        h1 Welcome To Demo Dance Academy
+        h3 : Eat - Dance - Sleep - Repeat : 
+
+    section#missionSection
+        h1 Mission Section
+        div.missionCard
+            div.card
+                h3 Free Dance
+                img.missionIcon(src="static/1.png")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit nostrum dolores, odit nam id mollitia? Itaque voluptatem optio fugit?
+            div.card
+                h3 Expert Instructor
+                img.missionIcon(src="static/2.png")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos accusamus incidunt illum quo, delectus error repellat quam exercitationem reiciendis.
+            div.card
+                h3 Dancing In Exercise
+                img.missionIcon(src="static/3.png")
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium accusamus iste doloremque repudiandae architecto culpa veniam quae nisi itaque eligendi!
+    section#sponsorsSection
+        //- | Sponsor Here
+        h1 Our Sponsors
+        div#sponsors
+            img(src="static/logo1.png", alt="Sponsor Image" class="spImage")
+            img(src="static/logo2.png", alt="Sponsor Image" class="spImage")
+            img(src="static/logo3.png", alt="Sponsor Image" class="spImage")
+            img(src="static/logo4.png", alt="Sponsor Image" class="spImage")
