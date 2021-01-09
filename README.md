@@ -36,13 +36,17 @@ It consist of different pages created using pug. markup of the page
 - Mongoose **(npm install mongoose)**
 - body-parser **(npm install body-parser)**
 
-##Screnshots
+## Screnshots
 
+- Home Page
 ![Home Page](screenshots/Home-page1.jpeg?raw=true "Home Page")
 
+- Home Page
 ![Home page ss2](screenshots/Home-page2.jpeg?raw=true "Home Page")
 
+- Contact Form Submission
 ![Contact Form Submission](screenshots/contact-page-submit.jpeg?raw=true "Contact Form Submission")
 
+- Confirming Data in Database
 ![MongoDb Collection](screenshots/mongo-contacts-collection.jpeg?raw=true "Confirming Data in Database")
 
