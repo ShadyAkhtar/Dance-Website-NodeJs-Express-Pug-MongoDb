@@ -36,11 +36,13 @@ It consist of different pages created using pug. markup of the page
 - Mongoose **(npm install mongoose)**
 - body-parser **(npm install body-parser)**
 
-![Home Page](/Backend-NodeJs_Pug/dance-project/screenshots/Home-page1.jpeg?raw=true "Home Page")
+##Screnshots
 
-![Home page ss2](/Backend-NodeJs_Pug/dance-project/screenshots/Home-page2.jpeg?raw=true "Home Page")
+![Home Page](screenshots/Home-page1.jpeg?raw=true "Home Page")
 
-![Contact Form Submission](/Backend-NodeJs_Pug/dance-project/screenshots/contact-page-submit.jpeg?raw=true "Contact Form Submission")
+![Home page ss2](screenshots/Home-page2.jpeg?raw=true "Home Page")
 
-![MongoDb Collection](/Backend-NodeJs_Pug/dance-project/screenshots/mongo-contacts-collection.jpeg?raw=true "Confirming Data in Database")
+![Contact Form Submission](screenshots/contact-page-submit.jpeg?raw=true "Contact Form Submission")
+
+![MongoDb Collection](screenshots/mongo-contacts-collection.jpeg?raw=true "Confirming Data in Database")
 
